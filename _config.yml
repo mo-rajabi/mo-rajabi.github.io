@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Mo Rajabi"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/profile.jpg"
   bio    : "I write about Computers, life and what's in between."
   links:
     - label: "Website"
