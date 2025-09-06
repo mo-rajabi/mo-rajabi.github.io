@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Mo Rajabi B."
+  name   : "Mohammad Rajabi B."
   avatar : "/assets/images/ph.jpg"
   bio    : "Code, Life and everything in between."
   links:
