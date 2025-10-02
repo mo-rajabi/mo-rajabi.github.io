@@ -1,0 +1,7 @@
+- name: Personal Website
+  link: https://mo-rajabi.github.io
+  description: Resume + blog built using Jekyll and GitHub Pages.
+
+- name: Project Euler solutions
+  link: https://github.com/mo-rajabi/projecteuler-solutions
+  description: A project that I share the solutions of euler mathematical problems in Python
