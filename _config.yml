@@ -6,8 +6,8 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Mo(Mohammad) Rajabi B.
-title: Computer engineering student
+name: Mo (Mohammad) Rajabi B.
+title: Computer Engineering Student
 email: mohammad.rajabi.ba@gmail.com
 website: mo-rajabi.github.io
 
@@ -15,103 +15,68 @@ website: mo-rajabi.github.io
 darkmode: false
 
 # Social links
-# twitter_username: facespics
-github_username:  mo-rajabi
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
+github_username: mo-rajabi
 linkedin_username: mo-rajabi
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Mo and I'm a computer engineering student whos interested in AI/ML. As well as a teacher I also have experience teaching what I know to people.
+  Hi, my name is Mo. I'm a computer engineering student interested in AI/ML.  
+  I also enjoy teaching and have experience sharing my knowledge with others.  
 
-  I am most skilled in: <mark>Linux</mark> and <mark>Python</mark>
+  My strongest skills are: <mark>Linux</mark> and <mark>Python</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: ProjectEuler solutions
-        link: github.com/mo-rajabi/projecteuler-solutions
-        # link_text: Project Website
-        #additional_links:
-          #- title:  sproogen/modern-resume-theme
-          #  icon: fab fa-github
-          #  url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        #quote: >
-        #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way of learning more about problem solving and practicing my theorical math knowledge in computers world.
-        #  I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+        title: ProjectEuler Solutions
+        link: https://github.com/mo-rajabi/projecteuler-solutions
+        description: |
+          I started this project to practice problem-solving and apply theoretical
+          mathematics in programming.
+
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: Freelance
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Code and mathematics teacher
+        sub_title: Code and Mathematics Teacher
         caption: November 2023 - Present
         quote: >
-          Maybe one of the greatest experiences that I had in my life was to make someone to understand somthing. And it gets better when that thing is somthing like programming or math.
-        description: | # this will include new lines to allow paragraphs
-            I teached (mostly private) to teenagers and adults have to solve problems. Sometime using numbers and pen, sometime using code and keyboard.
-            #Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          One of the greatest experiences I’ve had is helping someone truly
+          understand a concept—especially when it’s as challenging as programming or math.
+        description: |
+          I taught private lessons to teenagers and adults on problem-solving—
+          sometimes with pen and paper, sometimes with code and keyboard.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: IAUN
         caption: 2024 - Present
-        sub_title: BSc Computer Engineering
+        sub_title: B.Sc. Computer Engineering
         quote: >
-          I also was in national Olympiad in Informatics but because of some family problems(such as my dad's cancer) I could not study and code properly for a long time since highschool. Until I come into college and come back into the road.
-        description: | # this will include new lines to allow paragraphs
-          I'm still studying. Trying to finding valuable connections. I'm also thinking of translating some books and do some extra research during the study time.
+          I once participated in the National Olympiad in Informatics. Due to family
+          challenges, including my father’s cancer, I couldn’t study or code properly
+          during high school. Coming to university helped me return to the right path.
+        description: |
+          I’m still studying and working on building valuable connections. I’m also
+          planning to translate books and conduct extra research during my studies.
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering some of my other interests and hobbies are:
-      - Boxing (Hardcore)
-      - Reading books(mostly philosophical)
+    content: |
+      Alongside my interests in software engineering, some of my other hobbies are:
+      - Boxing (hardcore)
+      - Reading books (mostly philosophy)
       - Playing chess
-      
-      # Look at this cool image  
-      # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+# references_title: References on request
 
 # Build settings
 remote_theme: sproogen/resume-theme
