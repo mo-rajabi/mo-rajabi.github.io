@@ -1,11 +1,23 @@
-remote_theme: pages-themes/minimal@v0.2.0
+# Site settings
+repository: mo-rajabi/mo-rajabi.github.io
+remote_theme: sproogen/modern-resume-theme
 
-plugins:
-  - jekyll-remote-theme
+# Personal info
+name: Mo Rajabi
+title: Computer Engineering Student
+email: mohammad.rajabi.ba@gmail.comm
+website: https://mo-rajabi.github.io
 
-title: Mo Rajabi
-logo: /assets/img/img.jpg
-description: Writes about code, life and everything in between.
+# Social links
+github_username: mo-rajabi
+linkedin_username: mo-rajabi
+# twitter_username: your_twitter
+# instagram_username: your_instagram
 
-# Optional extras
-show_downloads: false
+# About section
+about_content: |
+  I am a computer engineering student passionate about coding, startups, and creating solutions.  
+  I enjoy writing about code, life, and everything in between.
+
+# Theme settings
+darkmode: true   # Options: true, false, never
